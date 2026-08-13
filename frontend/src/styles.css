@@ -58,4 +58,3 @@ main { min-height: calc(100vh - 264px); background: var(--color-paper); }
 .footer-link:hover { color: white; }
 
 @media (min-width: 768px) { .shell { width: min(100% - 64px, 1180px); } .hero-grid { grid-template-columns: 1.05fr .95fr; } }
-@media (min-width: 1240px) { body { padding: 72px 0; } header { width: min(100% - 64px, 1180px); margin-inline: auto; border-radius: 18px 18px 0 0; } main, footer { width: min(100% - 64px, 1180px); margin-inline: auto; } main { border-radius: 0; } footer { border-radius: 0 0 18px 18px; } }
